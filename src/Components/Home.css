@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    max-width: 1440px;
+    margin: 0% auto;
+}
+.bg {
+    content: '';
+    background: url('../Media/bg.jpg') no-repeat center center/cover;
+    height: 839px;
+    width: 752px;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+@media (max-width:375px) {
+    *{
+        margin: 0%;
+    padding: 0%;
+    max-width: 1440px;
+    margin: 0% auto;
+    }
+}
+
+/* .bg:before {
+    content: '';
+    background: url('./bg.jpg') no-repeat center center/cover;
+    height: 839px;
+    width: 752px;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+} */
